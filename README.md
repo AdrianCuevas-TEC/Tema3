@@ -110,7 +110,7 @@ Ejercicio2.1
         .align  2
         .type   _ZStL19piecewise_construct, %object
         .size   _ZStL19piecewise_construct, 1
-_ZStL19piecewise_construct:
+        _ZStL19piecewise_construct:
         .space  1
         .local  _ZStL8__ioinit
         .comm   _ZStL8__ioinit,1,4
