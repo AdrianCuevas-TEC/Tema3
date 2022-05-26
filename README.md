@@ -1,6 +1,6 @@
 # Tema3
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                             hola.s                                                                             
+
+                                                             hola                                                                            
 //Cuevas Martinez Adrian de Jesus 19211623
 @ greet.s - a little asm greeter.
 @ programa corto que obtiene la entrada del teclado y luego lo imprime de nuevo en la pantalla.
@@ -71,7 +71,8 @@ mov r7, $1                  @ exit syscall
 svc $0                      @ wake kernel
 .end
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 Ejercicio2
 //Cuevas Martinez Adrian de Jesus 19211623
 .data
@@ -87,7 +88,9 @@ ldr r2, = var2 /* r2 <- & var2 */
 ldrsb r2, [ r2 ] /* r2 <- *r2 */
 add r0, r1, r2 /* r0 <- r1 + r2 */
 bx lr
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 Ejercicio2.1
 //Cuevas Martinez Adrian de Jesus 19211623
  .arch armv6
@@ -180,7 +183,8 @@ main:
         mov     r1, r3
         .end
         
-        ----------------------------------------------------------------------------------------------------------------------------------------------------
+        
+	
         Trabajo2.2
         //Cuevas Martinez Adrian de Jesus 19211623
         .arch armv6
@@ -305,7 +309,9 @@ _GLOBAL__sub_I_main:
 	.ident	"GCC: (Raspbian 8.3.0-6+rpi1) 8.3.0"
 	.section	.note.GNU-stack,"",%progbits
   
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+  
+  
   Ejercicio2.4
   //Cuevas Martinez Adrian de Jesus 19211623
 	.eabi_attribute 28, 1
@@ -479,7 +485,7 @@ _GLOBAL__sub_I_main:
 	.section	.note.GNU-stack,"",%progbits
   
         
-        ------------------------------------------------------------------------------------------------------------------------------------------------------
+        
         Ejercicio3.1
         //Cuevas Martínez Adrián de Jesús 19211623
         //Devolver el minimo de una lista de numeros en ensamblador
@@ -556,7 +562,9 @@ _Z6minimoPii:
 	.ident 	"CCG: (Raspbian 8.3.0-6+rpi1) 8.3.0"
 	.section 	.note.GNU-stack,"",%progbits
   
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+  
+  
   Ejercicio3.2.1
   //Cuevas Martínez Adrián de Jesús
 //Media aritmetica
@@ -1077,7 +1085,10 @@ _GLOBAL__sub_I__Z10Iteracion1ii:
 	.ident 	"CCG: (Raspbian 8.3.0-6+rpi1) 8.3.0"
 	.section 	.note.GNU-stack,"",%progbits
   
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
   Ejercicio3.2
   //Cuevas Martinez Adrian de Jesus 19211623
 //Minimo de un vector
